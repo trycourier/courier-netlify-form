@@ -1,3 +1,9 @@
 [build]
   publish = "publish"
   functions = "functions/"
+
+[template.environment]
+  COURIER_AUTH_TOKEN = "Add auth token from Courier"
+  COURIER_EVENT = "Event for Courier to send to"
+  COURIER_LIST = "List to send submissions to"
+  COURIER_RECIPIENT = "Recipient to send submissions to"

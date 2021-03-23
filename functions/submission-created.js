@@ -4,7 +4,6 @@ const courier = CourierClient();
 exports.handler = async function (event, context) {
   // your server-side functionality
   const { payload: data, site } = JSON.parse(event.body);
-  console.log("site: ", site);
   console.log("payload: ", data);
 
   const eventId = process.env.COURIER_EVENT || "NETLIFY_FORM_SUBMISSION";
