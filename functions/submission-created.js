@@ -24,6 +24,7 @@ exports.handler = async function (event) {
         `An error occurred sending to the Courier List ${list}:`,
         error
       );
+      return { statusCode: 422, body: String(error) };
     }
   } else if (recipientId) {
     try {
@@ -36,10 +37,13 @@ exports.handler = async function (event) {
         `An error occured sending to the Courier Recipient ${recipientId}:`,
         error
       );
+      return { statusCode: 422, body: String(error) };
     }
   } else {
     console.log(
       `No message sent. Please set a list or recipient using the environment variables.`
     );
   }
+
+  return { statusCode: 200 };
 };

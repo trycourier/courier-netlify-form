@@ -32,8 +32,6 @@
       </p>
     </form>
     <script type="text/javascript">
-      document.querySelector("form").addEventListener("submit", handleSubmit);
-
       const handleSubmit = (e) => {
         e.preventDefault();
         let myForm = document.getElementById("contact");
@@ -43,9 +41,13 @@
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData).toString()
         })
-          .then(() => alert("Form successfully submitted"))
+          .then(() => {
+            alert("Form successfully submitted");
+            myForm.reset();
+          })
           .catch((error) => alert(error));
       };
+      document.querySelector("form").addEventListener("submit", handleSubmit);
     </script>
   </body>
 </html>
