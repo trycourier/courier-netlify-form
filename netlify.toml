@@ -3,7 +3,7 @@
   functions = "functions/"
 
 [template.environment]
-  COURIER_AUTH_TOKEN = "Add auth token from Courier"
-  COURIER_EVENT = "Event for Courier to send to"
-  COURIER_LIST = "List to send submissions to"
-  COURIER_RECIPIENT = "Recipient to send submissions to"
+  COURIER_AUTH_TOKEN = "Add your auth token from Courier. (required)"
+  COURIER_EVENT = "Add the notification id or mapped event for the notification Courier wil use."
+  COURIER_LIST = "Add the id of the list Courier will send submissions to. (list or recipient required)"
+  COURIER_RECIPIENT = "Add the id of the recipient Courier will send submissions to. (recipient or list required)"
