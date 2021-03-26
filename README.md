@@ -21,7 +21,7 @@ Clicking this button will create a new repo for you that looks like this one, an
 
 ### Option two: Manual clone
 
-You will need to install the Netlify CLI and connect it to your Netlify site to run locally.
+You will need to [install the Netlify CLI](https://docs.netlify.com/cli/get-started/) and connect it to your Netlify site to run locally.
 
 1. Clone this repo: `git clone https://github.com/aydrian/courier-netlify-form.git
 2. Connect to Netlify using `ntl init`
