@@ -25,7 +25,7 @@ Clicking this button will create a new repo for you that looks like this one, an
 
 You will need to [install the Netlify CLI](https://docs.netlify.com/cli/get-started/) and connect it to your Netlify site to run locally.
 
-1. Clone this repo: `git clone https://github.com/aydrian/courier-netlify-form.git
+1. Clone this repo: `git clone https://github.com/aydrian/courier-netlify-form.git`
 2. Connect to Netlify using `ntl init`
 3. Add the above environment variables using `ntl env:set [env var] [value]`
 4. Run the app locally using `ntl dev`
