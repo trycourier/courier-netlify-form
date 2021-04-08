@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aydrian/courier-netlify-form.git"
+    "url": "git+https://github.com/trycourier/courier-netlify-form.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aydrian/courier-netlify-form/issues"
+    "url": "https://github.com/trycourier/courier-netlify-form/issues"
   },
-  "homepage": "https://github.com/aydrian/courier-netlify-form#readme",
+  "homepage": "https://github.com/trycourier/courier-netlify-form#readme",
   "dependencies": {
     "@trycourier/courier": "^2.1.0"
   }
