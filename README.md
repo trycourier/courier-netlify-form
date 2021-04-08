@@ -12,7 +12,7 @@ First, sign up for a Courier Developer Account, it’s [free to sign up](https:/
 
 ### Option one: One-click deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aydrian/courier-netlify-form)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/trycourier/courier-netlify-form)
 
 Clicking this button will create a new repo for you that looks like this one, and sets that repo up immediately for deployment on Netlify. You will be prompted for a repo name and to provide the values for the following environment variables to used with Courier.
 
@@ -25,7 +25,7 @@ Clicking this button will create a new repo for you that looks like this one, an
 
 You will need to [install the Netlify CLI](https://docs.netlify.com/cli/get-started/) and connect it to your Netlify site to run locally.
 
-1. Clone this repo: `git clone https://github.com/aydrian/courier-netlify-form.git`
+1. Clone this repo: `git clone https://github.com/trycourier/courier-netlify-form.git`
 2. Connect to Netlify using `ntl init`
 3. Add the above environment variables using `ntl env:set [env var] [value]`
 4. Run the app locally using `ntl dev`
